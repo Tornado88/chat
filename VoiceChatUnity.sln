@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2015
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VoiceChatUnity", "VoiceChatUnity.csproj", "{1F3EBE9D-D2BD-52CE-D585-BE80A77641B6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VoiceChatUnity.Editor", "VoiceChatUnity.Editor.csproj", "{DAF1C07E-BC6C-495E-51B2-1065ABBBAACB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1F3EBE9D-D2BD-52CE-D585-BE80A77641B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F3EBE9D-D2BD-52CE-D585-BE80A77641B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F3EBE9D-D2BD-52CE-D585-BE80A77641B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F3EBE9D-D2BD-52CE-D585-BE80A77641B6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DAF1C07E-BC6C-495E-51B2-1065ABBBAACB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DAF1C07E-BC6C-495E-51B2-1065ABBBAACB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DAF1C07E-BC6C-495E-51B2-1065ABBBAACB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DAF1C07E-BC6C-495E-51B2-1065ABBBAACB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
