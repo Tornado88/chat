@@ -12,15 +12,15 @@ namespace VoiceChat.Demo.HLAPI
         {
             VoiceChatNetworkProxy.OnManagerStartClient(client);
 
-            gameObject.AddComponent<VoiceChatUi>();
+            //gameObject.AddComponent<VoiceChatUi>();
         }
 
         public override void OnStopClient()
         {
             VoiceChatNetworkProxy.OnManagerStopClient();
 
-            if (client != null)
-                Destroy(GetComponent<VoiceChatUi>());
+            //if (client != null)
+            //    Destroy(GetComponent<VoiceChatUi>());
         }
 
         public override void OnServerDisconnect(NetworkConnection conn)
@@ -34,14 +34,14 @@ namespace VoiceChat.Demo.HLAPI
         {
             VoiceChatNetworkProxy.OnManagerStartServer();
 
-            gameObject.AddComponent<VoiceChatServerUi>();
+            //gameObject.AddComponent<VoiceChatServerUi>();
         }
 
         public override void OnStopServer()
         {
             VoiceChatNetworkProxy.OnManagerStopServer();
 
-            Destroy(GetComponent<VoiceChatServerUi>());
+            //Destroy(GetComponent<VoiceChatServerUi>());
         }
 
         public override void OnClientConnect(NetworkConnection connection)
